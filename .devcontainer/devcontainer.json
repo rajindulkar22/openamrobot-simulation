@@ -1,0 +1,53 @@
+{
+  "name": "OMR Description — Gazebo Harmonic Simulation",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+
+  // Mount this package into a proper ROS 2 workspace layout
+  "workspaceFolder": "/workspaces/omr_ws",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/omr_ws/src/omr_description,type=bind,consistency=cached",
+
+  // X11 display forwarding (Gazebo GUI + RViz) and GPU passthrough
+  "runArgs": [
+    "--network=host",
+    "--ipc=host",
+    "--privileged",
+    "-e", "DISPLAY=${localEnv:DISPLAY}",
+    "-v", "/tmp/.X11-unix:/tmp/.X11-unix:rw",
+    "--gpus=all",
+    "-e", "NVIDIA_DRIVER_CAPABILITIES=all"
+  ],
+
+  // Build the workspace the first time the container is created
+  "postCreateCommand": "bash -c 'source /opt/ros/jazzy/setup.bash && cd /workspaces/omr_ws && colcon build --symlink-install && echo \"Build complete.\"'",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-iot.vscode-ros",
+        "ms-python.python",
+        "ms-vscode.cpptools",
+        "twxs.cmake",
+        "redhat.vscode-xml"
+      ],
+      "settings": {
+        "ros.rosInstallPath": "/opt/ros/jazzy",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash",
+            "args": ["--login"]
+          }
+        }
+      }
+    }
+  },
+
+  "remoteEnv": {
+    "ROS_DOMAIN_ID": "0",
+    "RMW_IMPLEMENTATION": "rmw_fastrtps_cpp",
+    "GZ_SIM_RESOURCE_PATH": "/workspaces/omr_ws/install/omr_description/share"
+  }
+}
