@@ -49,6 +49,18 @@ ROS 2 robot description package for an Open Mobile Robot (OMR) — a differentia
 
 ---
 
+## Robot Renders
+
+| Perspective | Front |
+|---|---|
+| ![Perspective view](images/robot_perspective.png) | ![Front view](images/robot_front.png) |
+
+| Top | Bottom |
+|---|---|
+| ![Top view](images/robot_top.png) | ![Bottom view](images/robot_bottom.png) |
+
+---
+
 ## Repository Structure
 
 ```

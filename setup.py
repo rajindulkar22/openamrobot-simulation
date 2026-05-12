@@ -29,6 +29,9 @@ setup(
 
         # rviz
         (os.path.join('share', package_name, 'rviz'), glob('rviz/*.rviz')),
+
+        # images
+        (os.path.join('share', package_name, 'images'), glob('images/*.*')),
     ],
     install_requires=['setuptools'],  
     zip_safe=True,
