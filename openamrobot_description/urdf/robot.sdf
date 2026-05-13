@@ -18,7 +18,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/base_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/base_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -27,7 +27,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/base_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/base_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -72,7 +72,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/bl_caster_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/bl_caster_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -81,7 +81,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/bl_caster_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/bl_caster_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -125,7 +125,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/bl_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/bl_wheel_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -134,7 +134,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/bl_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/bl_wheel_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -179,7 +179,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/br_caster_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/br_caster_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -188,7 +188,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/br_caster_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/br_caster_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -232,7 +232,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/br_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/br_wheel_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -241,7 +241,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/br_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/br_wheel_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -286,7 +286,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/fl_caster_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/fl_caster_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -295,7 +295,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/fl_caster_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/fl_caster_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -339,7 +339,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/fl_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/fl_wheel_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -348,7 +348,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/fl_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/fl_wheel_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -393,7 +393,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/fr_caster_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/fr_caster_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -402,7 +402,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/fr_caster_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/fr_caster_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -446,7 +446,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/fr_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/fr_wheel_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -455,7 +455,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/fr_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/fr_wheel_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -499,7 +499,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/left_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/left_wheel_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -508,7 +508,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/left_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/left_wheel_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -552,7 +552,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/lidar_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/lidar_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -561,7 +561,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/lidar_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/lidar_link.STL</uri>
           </mesh>
         </geometry>
         <material>
@@ -605,7 +605,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/right_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/right_wheel_link.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -614,7 +614,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>package://omr_description/meshes/visual/right_wheel_link.STL</uri>
+            <uri>package://openamrobot_description/meshes/visual/right_wheel_link.STL</uri>
           </mesh>
         </geometry>
         <material>

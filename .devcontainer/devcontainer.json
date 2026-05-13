@@ -1,13 +1,13 @@
 {
-  "name": "OMR Description — Gazebo Harmonic Simulation",
+  "name": "OpenAMRobot — Gazebo Harmonic Simulation",
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."
   },
 
-  // Mount this package into a proper ROS 2 workspace layout
-  "workspaceFolder": "/workspaces/omr_ws",
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/omr_ws/src/omr_description,type=bind,consistency=cached",
+  // Mount the repo into a proper ROS 2 workspace layout
+  "workspaceFolder": "/workspaces/openamrobot_ws",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/openamrobot_ws/src/openamrobot-simulation,type=bind,consistency=cached",
 
   // X11 display forwarding (Gazebo GUI + RViz) and GPU passthrough
   "runArgs": [
@@ -21,7 +21,7 @@
   ],
 
   // Build the workspace the first time the container is created
-  "postCreateCommand": "bash -c 'source /opt/ros/jazzy/setup.bash && cd /workspaces/omr_ws && colcon build --symlink-install && echo \"Build complete.\"'",
+  "postCreateCommand": "bash -c 'source /opt/ros/jazzy/setup.bash && cd /workspaces/openamrobot_ws && colcon build --symlink-install && echo \"Build complete.\"'",
 
   "customizations": {
     "vscode": {
@@ -48,6 +48,6 @@
   "remoteEnv": {
     "ROS_DOMAIN_ID": "0",
     "RMW_IMPLEMENTATION": "rmw_fastrtps_cpp",
-    "GZ_SIM_RESOURCE_PATH": "/workspaces/omr_ws/install/omr_description/share"
+    "GZ_SIM_RESOURCE_PATH": "/workspaces/openamrobot_ws/install/openamrobot_description/share:/workspaces/openamrobot_ws/install/openamrobot_gazebo/share"
   }
 }
