@@ -87,7 +87,7 @@ Stephen Brawner (brawner@gmail.com)
   </link>
   <joint
     name="fl_caster_joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="0.27505 0.215 -0.0093"
       rpy="0 0 0" />
@@ -139,7 +139,7 @@ Stephen Brawner (brawner@gmail.com)
   </link>
   <joint
     name="fl_wheel_joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="-0.015 0 -0.027746"
       rpy="0 0 0" />
@@ -193,7 +193,7 @@ Stephen Brawner (brawner@gmail.com)
   </link>
   <joint
     name="fr_caster_joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="0.27505 -0.215 -0.0093"
       rpy="0 0 0" />
@@ -245,7 +245,7 @@ Stephen Brawner (brawner@gmail.com)
   </link>
   <joint
     name="fr_wheel_joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="-0.015 0 -0.027746"
       rpy="0 0 0" />
@@ -299,7 +299,7 @@ Stephen Brawner (brawner@gmail.com)
   </link>
   <joint
     name="br_caster_joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="-0.27495 -0.215 -0.0093"
       rpy="0 0 0" />
@@ -351,7 +351,7 @@ Stephen Brawner (brawner@gmail.com)
   </link>
   <joint
     name="br_wheel_joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="-0.015 0 -0.027746"
       rpy="0 0 0" />
@@ -405,7 +405,7 @@ Stephen Brawner (brawner@gmail.com)
   </link>
   <joint
     name="bl_caster_joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="-0.27495 0.215 -0.0093"
       rpy="0 0 0" />
@@ -457,7 +457,7 @@ Stephen Brawner (brawner@gmail.com)
   </link>
   <joint
     name="bl_wheel_joint"
-    type="continuous">
+    type="fixed">
     <origin
       xyz="-0.015 0 -0.027746"
       rpy="0 0 0" />
